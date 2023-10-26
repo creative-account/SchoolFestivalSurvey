@@ -23,7 +23,7 @@
 
           <!-- 学年 -->
           <div class="field">
-            <p class="is-size-3">学年</p>
+            <label class="label">学年</label>
             <div class="control">
               <label class="radio">
                 <input type="radio" name="gread">
@@ -46,7 +46,7 @@
 
           <!-- クラス -->
           <div class="field">
-            <p class="is-size-3">組</p>
+            <label class="label">クラス</label>
             <div class="control">
               <label class="radio">
                 <input type="radio">
@@ -59,14 +59,36 @@
             </div>
           </div>
 
+          <!-- 名前 -->
           <div class="field">
             <label class="label">名前</label>
             <div class="control">
-              <input type="text">
+              <input type="text" class="input is-primary" placeholder="野間太郎">
             </div>
           </div>
-            
-          </label>
+
+          <!-- 役割 -->
+          <div class="field">
+            <label class="label">役割</label>
+            <div class="control">
+              <input type="text" class="input is-primary">
+            </div>
+          </div>
+
+          <!-- 感想 -->
+          <div class="field">
+            <label class="label">感想</label>
+            <div class="control">
+              <textarea class="textarea" placeholder="感想を入力..."></textarea>
+            </div>
+          </div>
+
+          <div class="field is-grouped">
+            <div class="control">
+              <input type="submit" value="送信" class="button is-primary">
+              <input type="reset" name="" id="" class="button is-primary is-light">
+            </div>
+          </div>
         </form>
       </div>
     </section>
