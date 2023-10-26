@@ -26,7 +26,7 @@
             <label class="label">学年</label>
             <div class="control">
               <label class="radio">
-                <input type="radio" name="gread">
+                <input type="radio" name="gread" required>
                 1年
               </label>
               <label class="radio">
@@ -37,10 +37,6 @@
                 <input type="radio" name="gread">
                 3年
               </label>
-              <label class="radio">
-                <input type="radio" name="gread">
-                保護者
-              </label>
             </div>
           </div>
 
@@ -49,7 +45,7 @@
             <label class="label">クラス</label>
             <div class="control">
               <label class="radio">
-                <input type="radio">
+                <input type="radio" required>
                 1組
               </label>
               <label class="radio">
@@ -63,7 +59,7 @@
           <div class="field">
             <label class="label">名前</label>
             <div class="control">
-              <input type="text" class="input is-primary" placeholder="野間太郎">
+              <input type="text" class="input" placeholder="野間太郎" required>
             </div>
           </div>
 
@@ -71,7 +67,7 @@
           <div class="field">
             <label class="label">役割</label>
             <div class="control">
-              <input type="text" class="input is-primary">
+              <input type="text" class="input" placeholder="役者" readonly>
             </div>
           </div>
 
@@ -79,7 +75,7 @@
           <div class="field">
             <label class="label">感想</label>
             <div class="control">
-              <textarea class="textarea" placeholder="感想を入力..."></textarea>
+              <textarea class="textarea" placeholder="感想を入力..." rows="10" required></textarea>
             </div>
           </div>
 
