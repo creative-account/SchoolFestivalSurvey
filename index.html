@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello Bulma!</title>
+    <title>風立祭アンケート</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
   </head>
   <body>
@@ -20,20 +20,53 @@
     <section class="section">
       <div class="container">
         <form action="">
-          <div class="control">
-            <label class="radio">
-              <input type="radio" name="answer">
-              1年
-            </label>
-            <label class="radio">
-              <input type="radio" name="answer">
-              2年
-            </label>
-            <label class="radio">
-              <input type="radio">
-              3年
-            </label>
+
+          <!-- 学年 -->
+          <div class="field">
+            <p class="is-size-3">学年</p>
+            <div class="control">
+              <label class="radio">
+                <input type="radio" name="gread">
+                1年
+              </label>
+              <label class="radio">
+                <input type="radio" name="gread">
+                2年
+              </label>
+              <label class="radio">
+                <input type="radio" name="gread">
+                3年
+              </label>
+              <label class="radio">
+                <input type="radio" name="gread">
+                保護者
+              </label>
+            </div>
           </div>
+
+          <!-- クラス -->
+          <div class="field">
+            <p class="is-size-3">組</p>
+            <div class="control">
+              <label class="radio">
+                <input type="radio">
+                1組
+              </label>
+              <label class="radio">
+                <input type="radio">
+                2組
+              </label>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label">名前</label>
+            <div class="control">
+              <input type="text">
+            </div>
+          </div>
+            
+          </label>
         </form>
       </div>
     </section>
