@@ -89,12 +89,22 @@
 
           <div class="field is-grouped">
             <div class="control">
-              <input type="submit" value="送信" class="button is-primary">
+              <input type="submit" value="送信" class="button is-primary" id="submit" onclick="load_animation()">
               <input type="reset" name="" id="" class="button is-primary is-light">
             </div>
           </div>
         </form>
       </div>
     </section>
+    <script type="text/javascript">
+      let submitted = false;
+    </script>
+    <script src="script.js"></script>
+    <iframe
+      name="hidden_iframe"
+      id="hidden_iframe"
+      style="display: none"
+      onload="if(submitted){window.location='THANKSページのURL';}">
+    </iframe>
   </body>
 </html>
